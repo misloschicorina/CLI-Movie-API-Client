@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "state.h"
-#include "commands.h"
+#include "commands/commands.h"
 #include "helpers.h"
 
 int main() {
@@ -14,7 +14,7 @@ int main() {
     while (1) {
         // Read a line (command) from stdin
         if (fgets(line, LINELEN, stdin) == NULL)
-            break; // Exit on EOF or read error
+            break;
 
         size_t len = strlen(line);
         if (len > 0 && line[len - 1] == '\n')
