@@ -147,15 +147,14 @@ rating=8.6
 SUCCESS: Movie added.
 
 > get_movies
-SUCCESS: Lista filmelor
+SUCCESS: Movie list
 #1 Interstellar
 
 > add_collection
 title=SciFi Favorites
 num_movies=1
 movie_id[0]=1
-SUCCESS: Collection "SciFi Favorites" created with id=5
-SUCCESS: All movies added in the new collection
+SUCCESS: Collection "SciFi Favorites" created 
 
 > get_collection
 id=5
